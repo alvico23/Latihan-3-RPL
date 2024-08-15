@@ -1,0 +1,162 @@
+/* style.css */
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+  }
+  
+  .hero {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px ;
+  }
+  
+  .section {
+    text-align: center;
+  }
+
+  .picture{
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+
+  .kepala {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  
+  .about {
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+  }
+  
+  .about-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d35318;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    font-size: 16px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  
+  .feature {
+    text-align: left;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #d35318;
+    color: white;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+  
+  .performance-box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: #d35318;
+    border-radius: 20px;
+  }
+  
+  .contact {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .contact-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d35318;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"], textarea {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #d35318;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #d35318;
+    color: white;
+    border-radius: 10px;
+  }
